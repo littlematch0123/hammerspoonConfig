@@ -1,5 +1,5 @@
-# myHammperspoonConfig
-myHammperspoonConfig(System Sound、Music App、QuickTime Player、headphone、clipboard)
+# hammerspoonConfig
+hammperspoonConfig(System Sound control、Music App control、QuickTime Player control、Bluetooth headphone auto toggle、Clipboard history in menu bar)
 
 ## Install
 ``` bash
@@ -26,11 +26,11 @@ shift + command + ctrl + ` -> play / pause
 ### QuickTime Player
 shift + command + ctrl + \ -> play / pause
 
-### headphone
+### Bluetooth headphone
 Bluetooth headphone auto toggle
 
-### clipboard
-Clipboard history
+### Clipboard history
+Clipboard history in menu bar
 
 
 
