@@ -10,21 +10,21 @@ git clone git@github.com:littlematch0123/hammerspoonConfig.git ~/.hammerspoon
 
 ## features
 ### System sound
-shift + command + ctrl + up : sound up
+Shift + Command + Ctrl + = : sound up
 
-shift + command + ctrl + down : sound down
+Shift + Command + Ctrl + - : sound down
 
-shift + command + ctrl + 0 : mute
+Shift + Command + Ctrl + 0 : mute
 
 ### Music app
-shift + command + ctrl + left : previous
+Shift + Command + Ctrl + PageUp : previous
 
-shift + command + ctrl + right : next
+Shift + Command + Ctrl + PageDown : next
 
-shift + command + ctrl + ` : play / pause
+Shift + Command + Ctrl + ` : play / pause
 
 ### QuickTime Player
-shift + command + ctrl + \\ : play / pause
+Shift + Command + Ctrl + \\ : play / pause
 
 ### Bluetooth connection
 Automatically turns off Bluetooth connection when Mac is asleep

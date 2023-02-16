@@ -27,14 +27,11 @@ function toggleQuickTimePlayback()
     ]])
 end
 
--- lock screen by starting screensaver
-hs.hotkey.bind({'shift', 'cmd'}, 'l', function() hs.caffeinate.startScreensaver() end)
-
 -- simulate media keys for external keyboard
-hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, 'Up', function() systemKey('SOUND_UP') end)
-hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, 'Down', function() systemKey('SOUND_DOWN') end)
+hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, '=', function() systemKey('SOUND_UP') end)
+hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, '-', function() systemKey('SOUND_DOWN') end)
 hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, '0', function() systemKey('MUTE') end)
 hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, '`', toggleMusicPlayback)
 hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, '\\', toggleQuickTimePlayback)
-hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, 'Left', function() systemKey('PREVIOUS') end)
-hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, 'right', function() systemKey('NEXT') end)
+hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, 'PageUp', function() systemKey('PREVIOUS') end)
+hs.hotkey.bind({'shift', 'cmd', 'ctrl'}, 'PageDown', function() systemKey('NEXT') end)
