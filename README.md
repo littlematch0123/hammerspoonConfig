@@ -5,7 +5,7 @@ hammperspoonConfig(System Sound control、Music App control、QuickTime Player c
 ``` bash
 brew install hammerspoon --cask
 brew install blueutil
-git clone git@github.com:littlematch0123/hammerspoonConfig.git ~/.hammerspoon
+git clone https://github.com:littlematch0123/hammerspoonConfig.git ~/.hammerspoon
 ```
 
 ## features
