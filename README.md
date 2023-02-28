@@ -1,5 +1,5 @@
 # hammerspoonConfig
-hammperspoonConfig(System Sound control、Music App control、QuickTime Player control、Bluetooth connection、Clipboard history)
+hammperspoonConfig(System Sound control、Music App control、QuickTime Player control、Bluetooth connection)
 
 ## Install
 ``` bash
@@ -29,8 +29,6 @@ Shift + Command + Ctrl + \\ : play / pause
 ### Bluetooth connection
 Automatically turns off Bluetooth connection when Mac is asleep
 
-### Clipboard history
-using ClipboardTool.spoon 
 
 
 
